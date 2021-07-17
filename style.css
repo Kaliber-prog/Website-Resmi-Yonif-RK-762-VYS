@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #about p {
   text-align: justify;
 }
 
 #myCarousel {
   padding-top: 4rem;
+}
+
+#about {
+  font-style: normal;
+  color: rgb(255, 255, 255);
 }
 
 #galeri {
@@ -14,6 +24,10 @@
   font-size: 50px;
   color: #dbd7af;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#contact {
+  color: rgb(255, 255, 255);
 }
 
 #sejarah {
