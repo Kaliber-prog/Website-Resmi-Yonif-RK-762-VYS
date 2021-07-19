@@ -13,7 +13,7 @@
 
 #about {
   font-style: normal;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 #galeri {
@@ -40,4 +40,13 @@
 #artilambang {
   padding-top: 6em;
   text-align: justify;
+  justify-content: center;
+  color: aliceblue;
+}
+
+#pejabatsatuan {
+  padding-top: 6em;
+  text-align: justify;
+  justify-content: center;
+  color: aliceblue;
 }
