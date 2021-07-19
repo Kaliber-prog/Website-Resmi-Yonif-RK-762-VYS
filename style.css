@@ -31,8 +31,10 @@
 }
 
 #sejarah {
-  padding-top: 6em;
+  padding-top: 6rem;
   text-align: justify;
+  justify-content: center;
+  color: aliceblue;
 }
 
 #artilambang {
