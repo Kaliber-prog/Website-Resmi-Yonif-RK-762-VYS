@@ -121,21 +121,33 @@
   color: aliceblue;
 }
 
+<<<<<<< HEAD
 #artikel {
-  padding-top: 6em;
-  text-align: justify;
-  justify-content: center;
-  color: aliceblue;
-}
-
-#penugasan {
-  padding-top: 6em;
-  text-align: justify;
-  justify-content: center;
-  color: aliceblue;
-}
-
+=======
 #prestasi {
+>>>>>>> a7a09e23694bbbba24da9b4d50590787acc623c1
+  padding-top: 6em;
+  text-align: justify;
+  justify-content: center;
+  color: aliceblue;
+}
+
+<<<<<<< HEAD
+#penugasan {
+=======
+#artikel {
+>>>>>>> a7a09e23694bbbba24da9b4d50590787acc623c1
+  padding-top: 6em;
+  text-align: justify;
+  justify-content: center;
+  color: aliceblue;
+}
+
+<<<<<<< HEAD
+#prestasi {
+=======
+#penugasan {
+>>>>>>> a7a09e23694bbbba24da9b4d50590787acc623c1
   padding-top: 6em;
   text-align: justify;
   justify-content: center;
