@@ -20,6 +20,11 @@
   background-color: #08470b;
 }
 
+#galeri .item:hover {
+  transition: 0.5s ease-in-out;
+  filter: brightness(80%);
+}
+
 #galeri h2 {
   font-size: 50px;
   color: #dbd7af;
