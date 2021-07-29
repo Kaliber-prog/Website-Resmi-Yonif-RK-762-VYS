@@ -35,6 +35,14 @@
   color: rgb(255, 255, 255);
 }
 
+#persit {
+  padding-top: 6rem;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  color: aliceblue;
+}
+
 #sejarah {
   padding-top: 6rem;
   text-align: justify;
@@ -141,6 +149,7 @@
 }
 
 #prestasi {
+  padding-top: 6em;
   text-align: justify;
   justify-content: center;
   color: aliceblue;
