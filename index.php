@@ -1,5 +1,9 @@
 <?php   
-mysqli_connect("localhost", "root", "", "virayudhasati");
+$conn = mysqli_connect("localhost", "root", "", "virayudhasakti");
+
+$result = mysqli_query($conn, "SELECT * FROM virayudhasakti");
+
+
 
 ?>
 

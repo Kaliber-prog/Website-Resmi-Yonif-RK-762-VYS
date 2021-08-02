@@ -43,6 +43,12 @@
   color: aliceblue;
 }
 
+#dokpersit h2 {
+  font-size: 50px;
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 #sejarah {
   padding-top: 6rem;
   text-align: justify;
@@ -125,6 +131,18 @@
   text-align: justify;
   justify-content: center;
   color: aliceblue;
+}
+
+#publikasi h2 {
+  font-size: 50px;
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#publikasi .link:hover {
+  transition: 0.5s ease-in-out;
+  filter: brightness(60%);
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #kegiatan {
