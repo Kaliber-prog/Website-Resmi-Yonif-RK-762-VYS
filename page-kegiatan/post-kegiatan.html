@@ -1,18 +1,4 @@
-<?php
-require 'function.php';
-$data_kegiatan = query("SELECT * FROM data_kegiatan");
 
-
-//ambil data kegiatanan dari object result
-//mysqku_fectcg_row()
-
-// while($giat = mysqli_fetch_assoc($result) ) {
-//     var_dumb($giat);
-// };
-
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -71,13 +57,13 @@ $data_kegiatan = query("SELECT * FROM data_kegiatan");
                   JAJARAN KOMPI
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="../jajaran kompi/kima.html">KOMPI MARKAS</a></li>
-                  <li><a class="dropdown-item" href="../jajaran kompi/kipanA.html">KOMPI SENAPAN A</a></li>                
-                  <li><a class="dropdown-item" href="../jajaran kompi/kipanB.html">KOMPI SENAPAN B</a></li>                
-                  <li><a class="dropdown-item" href="../jajaran kompi/kipanC.html">KOMPI SENAPAN C</a></li>                
-                  <li><a class="dropdown-item" href="../jajaran kompi/kipanD.html">KOMPI SENAPAN D</a></li>                
-                  <li><a class="dropdown-item" href="../jajaran kompi/kibant.html">KOMPI BANTUAN</a></li>                
-                  <li><a class="dropdown-item" href="../jajaran kompi/kisus.html">KOMPI KHUSUS</a></li>                  
+                  <li><a class="dropdown-item" href="../jajaran kompi/kima.html">KIMA</a></li>
+                  <li><a class="dropdown-item" href="../jajaran kompi/kipanA.html">KIPAN A</a></li>                
+                  <li><a class="dropdown-item" href="../jajaran kompi/kipanB.html">KIPAN B</a></li>                
+                  <li><a class="dropdown-item" href="../jajaran kompi/kipanC.html">KIPAN C</a></li>                
+                  <li><a class="dropdown-item" href="../jajaran kompi/kipanD.html">KIPAN D</a></li>                
+                  <li><a class="dropdown-item" href="../jajaran kompi/kibant.html">KIBANT</a></li>                
+                  <li><a class="dropdown-item" href="../jajaran kompi/kisus.html">KISUS</a></li>                  
                 </ul>
               </li>
               <li class="nav-item dropdown">              
@@ -119,9 +105,12 @@ $data_kegiatan = query("SELECT * FROM data_kegiatan");
           <section id="halgiat">
             <div class="row justify-content-star text-align-center">
               <div class="col align-items-center">
-                <?php while( $row = mysqli_fetch_assoc($result) ) : ?>
-                               
-                <div class="row text-center mb-3">
+                <P class="fw-bold fs-4">Penyerahkan Hewan qurban Secara Simbolis Oleh Komandan RK 762/VYS</P>
+                <p>Sorong,Papua Barat -- Komandan Batalion RK 762/VYS Letkol Inf Charlie Clay Lorando Sondakh S.E, telah  menyerahkan  hewan qurban secara simbolis kepada panitia perayaan Idul qurban Yonif RK 762/VYS yang bertempat di masjid Baitussalam Yonif RK 762/VYS, kota sorong Provinsi Papua Barat, Selasa  (20/7/2021).</p>
+
+                  <p>Setelah penyerahan sapi qurban oleh Komandan Batalion Yonif RK 762/VYS kepada panitia kemudian di lanjutkan dengan pemotongan hewan qurban dalam rangka Perayaan Idul Adha Tahun 1442 H. Kegiatan pemotongan hewan qurban tersebut dilaksanakan oleh panitia di halaman masjid Baitussalam Yonif RK 762/VYS. Menurut Charlie C.L.Sondakh menyampaikan bahwa kegiatan ini merupakan rangkaian kegiatan keagamaan yaitu perayaan Hari Raya Idul Adha 1442 H yang akan dilanjutkan dengan pembagian daging qurban kepada masyarakat di sekitar Anggota keluarga yonif RK 762/vys yang beragama muslim dan masyarakat di sekitarnya dan kaum duafa yang berhak menerimanya,akan tetapi kita tetap selalu  menerapkan dan harus mematuhi protokol kesehatan sesuai anjuran pemerintah.
+                    Ia juga menjelaskan bahwa banyak hikmah yang bisa kita petik dari perayaan Idul Adha di samping untuk memupuk rasa kepedulian kita terhadap sesama umat muslim, kita juga telah ikut membantu membahagiakan saudara-saudara kita yang kurang mampu pada Hari Raya Idul Adha," ujarnya saat ditemui disela sela pemotongan hewan qurban.</p>
+                  <div class="row text-center mb-3">
                     <div class="item col mb-3">
                       <a href="../img/dok kegiatan/IMG_6296.jpg" class="fancybox" data-fancybox="gambah kegiatan">
                         <img src="../img/dok kegiatan/IMG_6296.jpg" alt="Yonif RK 762 Tempo Dulu" height="250px" >
@@ -129,7 +118,6 @@ $data_kegiatan = query("SELECT * FROM data_kegiatan");
                     </div>
                   </div>              
                   <p>Lanjut komandan yonif RK 762/vys berharap dengan kegiatan seperti ini bisa meningkatkan solidaritas dan kepedulian kepada sesama. Dengan Penyaluran daging qurban ini diharapkan agar dapat mampu mendekatkan Keluarga Besar RK 762/Vys dengan warga masyarakat.</p>
-                <? endwhile; ?>
                 </div>
               </div>              
           </section>

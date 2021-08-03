@@ -162,6 +162,10 @@
   color: aliceblue;
 }
 
+#page-kegiatan .pcl-decs {
+  color: #dfa811a1;
+}
+
 #artikel {
   padding-top: 6em;
   text-align: justify;
