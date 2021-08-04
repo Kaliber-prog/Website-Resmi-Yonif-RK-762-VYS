@@ -10,7 +10,7 @@
 }
 
 .nav-item {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #about p {
@@ -37,6 +37,15 @@
 
 #galeri h2 {
   font-size: 50px;
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#galeri-yon {
+  padding-top: 6rem;
+  font-size: 50px;
+  text-align: justify;
+  justify-content: center;
   color: #dbd7af;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
