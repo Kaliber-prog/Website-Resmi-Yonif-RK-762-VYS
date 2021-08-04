@@ -163,6 +163,7 @@
 }
 
 #page-kegiatan .pcl-decs {
+  text-decoration-color: rgb(0, 0, 0);
   color: #dfa811a1;
 }
 
