@@ -164,18 +164,18 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#publikasi .card-img-overlay {
+#publikasi .card-img {
   float: left;
-  width: auto;
+  width: 100%;
   background: #1c1d15;
   color: #fff;
   margin-bottom: auto;
   text-align: center;
-  padding: 0px;
+  padding: 5px;
   position: -ms-page;
   left: 0;
   right: 0;
-  top: auto;
+  top: 0;
   bottom: 0;
   transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -192,18 +192,18 @@
   color: #dbd7af;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#media .card-img-overlay {
+#media .card-img {
   float: left;
-  width: auto;
+  width: 100%;
   background: #1c1d15;
   color: #fff;
   margin-bottom: auto;
   text-align: center;
-  padding: 0px;
-  position: -ms-page;
+  padding: 5px;
+  position: -webkit-sticky;
   left: 0;
   right: 0;
-  top: auto;
+  top: 0;
   bottom: 0;
   transition: 0.2s;
   -webkit-transition: 0.2s;
