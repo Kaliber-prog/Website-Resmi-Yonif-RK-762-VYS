@@ -13,6 +13,12 @@
   font-size: 15px;
 }
 
+#beranda .d-flex {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
 #about p {
   text-align: justify;
 }
@@ -87,6 +93,29 @@
   text-align: justify;
   justify-content: center;
   color: aliceblue;
+}
+
+#pejabatsatuan .item:hover {
+  transition: 0.5s ease-in-out;
+  filter: brightness(60%);
+  color: #000000;
+}
+
+#pejabatsatuan .card-text {
+  float: left;
+  width: 100%;
+  background: #1c1d15;
+  color: #fff;
+  margin-bottom: auto;
+  text-align: justify;
+  padding: 5px;
+  position: -ms-page;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 #organisasi {
