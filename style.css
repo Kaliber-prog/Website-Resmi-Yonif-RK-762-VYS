@@ -164,6 +164,51 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+#publikasi .card-img-overlay {
+  float: left;
+  width: auto;
+  background: #1c1d15;
+  color: #fff;
+  margin-bottom: auto;
+  text-align: center;
+  padding: 0px;
+  position: -ms-page;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+#media h2 {
+  font-size: 50px;
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#media .link:hover {
+  transition: 0.5s ease-in-out;
+  filter: brightness(60%);
+  color: #dbd7af;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#media .card-img-overlay {
+  float: left;
+  width: auto;
+  background: #1c1d15;
+  color: #fff;
+  margin-bottom: auto;
+  text-align: center;
+  padding: 0px;
+  position: -ms-page;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
 #kegiatan {
   padding-top: 6em;
   text-align: justify;
