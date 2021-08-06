@@ -3,11 +3,76 @@
   padding: 0;
 }
 
-.navbar-toggler-icon {
-  position: relative;
-  float: right;
-  display: none;
+.menu-toggler {
+  display: inline-block;
+  cursor: pointer;
 }
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #e5dbb5;
+  margin: 8px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-9px, -6px);
+  transform: rotate(45deg) translate(-9px, -7px);
+}
+
+@media (min-width: 768px) {
+  .menu-toggler {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .menu-toggler {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .menu-toggler {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+  .menu-toggler {
+    display: none;
+  }
+}
+
+/* .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #505050;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+.navbar-toggler-icon {
+  display: inline;
+  width: 0.5em;
+
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 
 .nav-item {
   font-size: 15px;
@@ -22,14 +87,17 @@
 #about p {
   text-align: justify;
 }
+#about .container .row {
+  font-style: normal;
+  color: #ffffff;
+  background-image: url(img/bg/6.jpg);
+  position: 0 0 100 0;
+  padding-block: inherit;
+  border-color: navajowhite 5px;
+}
 
 #myCarousel {
   padding-top: 4rem;
-}
-
-#about {
-  font-style: normal;
-  color: #ffffff;
 }
 
 #galeri {
@@ -56,16 +124,18 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#contact {
+#contact,
+h2 {
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 #persit {
   padding-top: 6rem;
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   justify-content: center;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 
 #dokpersit h2 {
@@ -125,12 +195,12 @@
   color: aliceblue;
 }
 
-#tugaspokokdanfungsi {
+/* #tugaspokokdanfungsi {
   padding-top: 6em;
   text-align: justify;
   justify-content: center;
   color: aliceblue;
-}
+} */
 
 #kima {
   padding-top: 6em;
@@ -182,6 +252,7 @@
 }
 
 #publikasi h2 {
+  padding: 10px;
   font-size: 50px;
   color: #dbd7af;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -211,6 +282,7 @@
 }
 
 #media h2 {
+  padding: 10px;
   font-size: 50px;
   color: #dbd7af;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

@@ -35,9 +35,16 @@
           <a class="navbar-brand-sm" href="#home">
             <img src="img/logosatuan 2.png" alt="logosatuan" width="300x">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon-float" ></span>          
-          </button>
+          <div class="menu-toggler" onclick="myFunction(this)" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+            }
+            </script>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fs-5">
               <li class="nav-item">
